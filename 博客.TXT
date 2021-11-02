@@ -1,0 +1,5 @@
+-- rabbitMQ
+https://blog.csdn.net/unique_perfect/article/details/109380996
+
+-- 多线程
+https://blog.csdn.net/Ares___/article/details/120636631
