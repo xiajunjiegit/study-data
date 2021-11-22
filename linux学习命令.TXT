@@ -40,7 +40,12 @@ cp -r：递归拷贝，如将一个文件夹下的整个目录全部拷贝
 15、tail -n 5 文件：查看文件的后5行
 tail -f 文件：实时追踪
 16、history 查看已经执行的指令
-
+17、find 
+find / -size +20M：在根目录下查找大于20M的文件（大于+，小于-，等于不用输入符号）
+find / -name *.java：在根目录下查找文件名称以java结尾的文件
+18、locate
+updatedb：在使用locate前先创建数据库
+locate hello.txt：查找hello.txt文件
 
 
 
