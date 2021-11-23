@@ -46,6 +46,15 @@ find / -name *.java：在根目录下查找文件名称以java结尾的文件
 18、locate
 updatedb：在使用locate前先创建数据库
 locate hello.txt：查找hello.txt文件
+19、zip -r mypackage.zip /home：将home压缩，-r递归压缩
+unzip -d /opt/tmp/ mypackage.zip：将mypackage解压到/opt/tmp 下
+20、tar
+-c：产生.tar打包文件
+-v：显示详细信息
+-f：指定压缩后的文件名
+-z：打包同时压缩
+-x：解包.tar文件
+tar -zcvf a.tar.gz a.txt b.txt：将a.txt b.txt 压缩成a.tar.gz
 
 
 
