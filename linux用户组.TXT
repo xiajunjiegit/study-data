@@ -1,0 +1,10 @@
+groupadd xx：创建组
+useradd -g xx tom ：创建tom用户，属于xx组
+ls -ahl：显示所属者
+
+chown：改变文件所在用户
+chown 改变到那个用户 文件
+
+chgrp：修改文件所在组
+
+usermod -g 组名 用户名：改变用户所在组

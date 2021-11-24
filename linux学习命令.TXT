@@ -56,7 +56,20 @@ unzip -d /opt/tmp/ mypackage.zip：将mypackage解压到/opt/tmp 下
 -x：解包.tar文件
 tar -zcvf a.tar.gz a.txt b.txt：将a.txt b.txt 压缩成a.tar.gz
 
+21、crontab -e：任务调度（定时任务）
+执行顺序：crontab -e  回车
+*/1 * * * * ls -l /etc >> /tmp/to.txt：每一分钟将执行的ls -l /etc 的结果追加到tmp/to.txt文件中
 
+22、service管理指令：
+service 服务名 [start | stop | restart | reload | status]
+
+23、rpm
+rpm -e RPM包的名称：删除rpm软件包（卸载软件）
+rpm -ivh RPM包全路径名称：安装rpm包
+
+24、yum
+yum list | grep xx ：查询是否存在xx软件
+yum install firefox：安装firefox(火狐浏览器)软件
 
 
 
